@@ -1,0 +1,1340 @@
+<!DOCTYPE html>
+<html  lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">       
+        <title>Restaurants, groceries offers and discounts near me in Egypt | Talabat </title>
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap" rel="stylesheet">
+
+        <link href="css/bootstrap.css" rel="stylesheet"/>
+        <link href="css/font-awesome.css" rel="stylesheet"/>
+
+        <link rel="icon" href="images/favicon.ico"/>
+        <link href="css/Otlab.css" rel="stylesheet"/>
+        
+
+        
+        
+    </head>
+
+    <body>
+
+         <!-- NavBar -->
+         <header id="header" style="background-color: rgb(255, 104, 4);">
+            <div class="container d-flex justify-content-between">
+                <a class="navbar-brand " href="home.html" ><img src="images/logo1.jpg" height="60px" /></a>
+                <nav class="navbar navbar-expand-lg  navbar-light  lighten-4 pb-3 pl-3 p-md-0 " style="background-color: rgb(255, 104, 4);">
+                    <button   class="navbar-toggler" style="margin-left: auto;" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                        <!-- <span class="my-1 mx-2 close">X</span> -->
+                        <span  class="navbar-toggler-icon "></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbar">
+            
+                      <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link ml-2 ml-md-0" href="Offers.html" style="color: white;font-family: 'Noto Sans JP', sans-serif;">Offers </a>
+                        </li>
+            
+                        <li class="nav-item">
+                          <a class="nav-link ml-2 ml-md-0" href="Partner.html" target="_blank" style="color: white;font-family: 'Noto Sans JP', sans-serif;">Become a partner</a>
+                        </li>
+            
+                        <li class="nav-item ">
+                            <a class="nav-link ml-2 ml-md-0" href="AllResturant.html" style="color: white;font-family: 'Noto Sans JP', sans-serif;">All Restaurants</a>
+                        </li>
+            
+                        <li class="nav-item">
+                            <a class="nav-link ml-2 ml-md-0" href="#" style="color: white;font-family: 'Cairo', sans-serif;font-size: 17px;font-weight: 600;">العربية</a>
+                        </li>
+        
+                        <li class="dropdown" style="width:100px;">
+                            <a href="#"><span><img style="border-radius: 50%;width: 30px;" src="country-flags-16px/16/eg_16.png" /> </span></a>
+                            <ul style="padding-right: 200px">
+                                <li><a href="#"><img style="border-radius: 50%;width: 30px;" src="country-flags-16px/16/sa_16.png" />السعودية</a></li>
+                                <li><a href="#"><img  style="border-radius: 50%;width: 30px;" src="country-flags-16px/16/eg_16.png" />مصر</a></li>
+                                <li><a href="#"><img style="border-radius: 50%;width: 30px;" src="country-flags-16px/16/jo_16.png" />الاردن</a></li>
+                                <li><a href="#"><img style="border-radius: 50%;width: 30px;" src="country-flags-16px/16/lb_16.png" />لبنان</a></li>
+                                <li><a href="#"><img style="border-radius: 50%;width: 30px;" src="country-flags-16px/16/ng_16.png" />نيجيريا</a></li>
+                                <li><a href="#"><img style="border-radius: 50%;width: 30px;" src="country-flags-16px/16/ke_16.png" />كينيا</a></li>
+                                <li><a href="#"> <img style="border-radius: 50%;width: 30px;" src="country-flags-16px/16/global.jpg" />النسخة العالمية </a></li>
+                            </ul>
+                        </li> 
+                        
+        
+                        <li class="nav-item">
+                            <a data-toggle="modal" data-target="#myModal" class="nav-link ml-2 ml-md-0 text-center" href="#" style="border: 2px solid white;border-radius: 15px;color: white;font-family: 'Noto Sans JP', sans-serif;width: 80px;">Login</a>
+                        </li>
+                      </ul>
+            
+                    </div>
+                </nav> 
+            </div>
+        </header>  
+        <!-- NavBar -->
+
+        <!-- The Modal Log in -->
+        <div class="modal fade" id="myModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <div class="container">
+                            <!-- close x model -->
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+
+                              <!-- row -->
+                            <div class="row justify-content-center mb-3">
+                                <h1>Login</h1>
+                            </div>
+                             <!-- row -->
+                            <div class="row ">
+                                <button style="font-size: 15px;color: gray;background-color: white;border: 1px solid rgb(211, 210, 210);border-radius: 0;margin-bottom: 15px;" type="button" class="btn  btn-lg btn-block"><a href="#"><img class="pull-left" src="https://img.icons8.com/color/16/000000/google-logo.png" width="25"></a> Continue with Google</button>
+                            </div>
+                             <!-- row -->
+                            <div class="row ">
+                                <button style="font-size: 15px;color: white;background-color: rgb(8, 128, 209);border-radius: 0;margin-bottom: 20px;" type="button" class="btn  btn-lg btn-block"><a href="#"><img class="pull-left" src="https://www.freepnglogos.com/uploads/facebook-logo-icon/facebook-logo-icon-file-facebook-icon-svg-wikimedia-commons-4.png" width="25" /></a>Continue with Facebook</button>
+                            </div>
+                             <!-- row -->
+                            <div class="row justify-content-center">
+                                <p>OR</p>
+                            </div>
+                             <!-- row -->
+                            <div class="row mb-3">
+                                <input type="email" value="" class="form-control " placeholder="Email"> 
+                            </div>
+                             <!-- row -->
+                            <div class="row pass_show mb-5">
+                                <input type="password" value="" class="form-control " placeholder="Password"> 
+                            </div>
+                             <!-- row -->
+                            <div class="row justify-content-around mb-3">
+                                <div class="col-6">
+                                    <div class="checkbox">
+                                        <label> <input style="width: 30px;" type="checkbox" value=""> Keep Me logged in</label>
+                                      </div>
+                                </div>
+                                <div class="col-5">
+                                    <a href="#" class="ForgrtPass" style="text-decoration: none;">Forgot password?</a>
+                                </div>
+                            </div>
+                             <!-- row -->
+                            <div class="row mb-5">
+                                <button  type="button" class="btn  btn-lg btn-block Btnlogin">Log in</button>
+                            </div>
+                             <!-- row -->
+                            <div class="row mb-5 justify-content-center">
+                                <span style="font-size: 16px;">Don't have an account?</span>
+                                <a style="color: rgb(255, 83, 4);text-decoration: none;font-size: 16px;" href="RegisterPage.html"> Create an account</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- The Modal Log in-->
+
+
+        <!-- Body -->
+        <section>
+            <div  class="container pr-lg-5" style="box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);margin-bottom: 20px;">
+
+                <!-- row 1 -->
+                <div class="row justify-content-center">
+                    <div style="background-color: rgb(247, 245, 245);padding: 8px;width: 95%;margin-top: 30px;margin-bottom: 40px;">
+                        <h4>Offers</h4>  
+                    </div>
+                </div>
+
+                <!-- row 2 -->
+                <div class="row justify-content-center text-center mb-4">
+                    <div class="col-5 borderBootom" style="border-bottom:4px solid #F94F00 ;">
+                        <span  class="fa fa-percent iconTitle" ></span>  <span style="color: #F94F00;"  onclick="myFunction()" class="Tittle" >Promotions</span> 
+                    </div>
+                    <div class="col-5 borderBootom">
+                        <span class="fa fa-money iconTitle" ></span>  <span onclick="myFunction2()" class="Tittle" >Coupons</span> 
+                    </div>
+                    <!-- <hr  style="margin: 0 5%;background-color: rgb(245, 245, 245);width: 95%;margin-top: 15px;"> -->
+
+                </div>
+
+
+
+                <!-- container Promotions -->
+                <div class="container" id="myDIV">
+
+                <!-- row 1 -->
+                <div class="row justify-content-around mb-lg-4">
+                    <div data-toggle="modal" data-target="#myModal1" class="col-lg-2 col-6 mb-5 mb-lg-0">
+                        <div class="card cardProduct">
+                            <div class="card-header bg-white d-flex justify-content-center" >
+                                <img src="images/offer1.webp" width="100px"  alt=""/>
+                            </div>
+                            <div class="card-footer text-center">
+                              <h6 class="card-title ">3a Tasa</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-toggle="modal" data-target="#myModal2" class="col-lg-2 col-6 ">
+                        <div class="card cardProduct">
+                            <div class="card-header bg-white d-flex justify-content-center" >
+                                <img src="images/offer2.webp" width="100px"  alt=""/>
+                            </div>
+                            <div class="card-footer text-center">
+                              <h6 class="card-title ">3B Burger</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-toggle="modal" data-target="#myModal3" class="col-lg-2 col-6 mb-5 mb-lg-0">
+                        <div class="card cardProduct">
+                            <div class="card-header bg-white d-flex justify-content-center" >
+                                <img src="images/offer3.webp" width="100px"  alt=""/>
+                            </div>
+                            <div class="card-footer text-center">
+                              <h6 class="card-title ">3eish w Mal7</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-toggle="modal" data-target="#myModal4" class="col-lg-2 col-6">
+                        <div class="card cardProduct">
+                            <div class="card-header bg-white d-flex justify-content-center" >
+                                <img src="images/offer4.webp" width="100px"  alt=""/>
+                            </div>
+                            <div class="card-footer text-center">
+                              <h6 class="card-title ">3m Khaled</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-toggle="modal" data-target="#myModal5" class="col-lg-2 d-none d-lg-block">
+                        <div class="card cardProduct">
+                            <div class="card-header bg-white d-flex justify-content-center" >
+                                <img src="images/offer5.webp" width="100px"  alt=""/>
+                            </div>
+                            <div class="card-footer text-center">
+                              <h6 class="card-title ">3mo Gambari</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- row 1 -->
+
+                <!-- row 2 -->
+                <div class="row justify-content-around mb-lg-4 ">
+                    <div data-toggle="modal" data-target="#myModal1" class="col-lg-2 col-6 mb-5 mb-lg-0">
+                        <div class="card cardProduct">
+                            <div class="card-header bg-white d-flex justify-content-center" >
+                                <img src="images/offer1.webp" width="100px"  alt=""/>
+                            </div>
+                            <div class="card-footer text-center">
+                              <h6 class="card-title ">3a Tasa</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-toggle="modal" data-target="#myModal2" class="col-lg-2 col-6 ">
+                        <div class="card cardProduct">
+                            <div class="card-header bg-white d-flex justify-content-center" >
+                                <img src="images/offer2.webp" width="100px"  alt=""/>
+                            </div>
+                            <div class="card-footer text-center">
+                              <h6 class="card-title ">3B Burger</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-toggle="modal" data-target="#myModal3" class="col-lg-2 col-6 mb-5 mb-lg-0">
+                        <div class="card cardProduct">
+                            <div class="card-header bg-white d-flex justify-content-center" >
+                                <img src="images/offer3.webp" width="100px"  alt=""/>
+                            </div>
+                            <div class="card-footer text-center">
+                              <h6 class="card-title ">3eish w Mal7</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-toggle="modal" data-target="#myModal4" class="col-lg-2 col-6">
+                        <div class="card cardProduct">
+                            <div class="card-header bg-white d-flex justify-content-center" >
+                                <img src="images/offer4.webp" width="100px"  alt=""/>
+                            </div>
+                            <div class="card-footer text-center">
+                              <h6 class="card-title ">3m Khaled</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-toggle="modal" data-target="#myModal5" class="col-lg-2 d-none d-lg-block">
+                        <div class="card cardProduct">
+                            <div class="card-header bg-white d-flex justify-content-center" >
+                                <img src="images/offer5.webp" width="100px"  alt=""/>
+                            </div>
+                            <div class="card-footer text-center">
+                              <h6 class="card-title ">3mo Gambari</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- row 2 -->
+
+                <!-- row 3 -->
+                <div class="row justify-content-around mb-lg-4 ">
+                    <div data-toggle="modal" data-target="#myModal1" class="col-lg-2 col-6 mb-5 mb-lg-0">
+                        <div class="card cardProduct">
+                            <div class="card-header bg-white d-flex justify-content-center" >
+                                <img src="images/offer1.webp" width="100px"  alt=""/>
+                            </div>
+                            <div class="card-footer text-center">
+                              <h6 class="card-title ">3a Tasa</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div  data-toggle="modal" data-target="#myModal2" class="col-lg-2 col-6 ">
+                        <div class="card cardProduct">
+                            <div class="card-header bg-white d-flex justify-content-center" >
+                                <img src="images/offer2.webp" width="100px"  alt=""/>
+                            </div>
+                            <div class="card-footer text-center">
+                              <h6 class="card-title ">3B Burger</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-toggle="modal" data-target="#myModal3" class="col-lg-2 col-6 mb-5 mb-lg-0">
+                        <div class="card cardProduct">
+                            <div class="card-header bg-white d-flex justify-content-center" >
+                                <img src="images/offer3.webp" width="100px"  alt=""/>
+                            </div>
+                            <div class="card-footer text-center">
+                              <h6 class="card-title ">3eish w Mal7</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-toggle="modal" data-target="#myModal4" class="col-lg-2 col-6">
+                        <div class="card cardProduct">
+                            <div class="card-header bg-white d-flex justify-content-center" >
+                                <img src="images/offer4.webp" width="100px"  alt=""/>
+                            </div>
+                            <div class="card-footer text-center">
+                              <h6 class="card-title ">3m Khaled</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-toggle="modal" data-target="#myModal5" class="col-lg-2 d-none d-lg-block">
+                        <div class="card cardProduct">
+                            <div class="card-header bg-white d-flex justify-content-center" >
+                                <img src="images/offer5.webp" width="100px"  alt=""/>
+                            </div>
+                            <div class="card-footer text-center">
+                              <h6 class="card-title ">3mo Gambari</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- row 3 -->
+
+                <!-- row 4 -->
+                <div class="row justify-content-around mb-lg-4 ">
+                    <div data-toggle="modal" data-target="#myModal1" class="col-lg-2 col-6 mb-5 mb-lg-0">
+                        <div class="card cardProduct">
+                            <div class="card-header bg-white d-flex justify-content-center" >
+                                <img src="images/offer1.webp" width="100px"  alt=""/>
+                            </div>
+                            <div class="card-footer text-center">
+                              <h6 class="card-title ">3a Tasa</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-toggle="modal" data-target="#myModal2" class="col-lg-2 col-6 ">
+                        <div class="card cardProduct">
+                            <div class="card-header bg-white d-flex justify-content-center" >
+                                <img src="images/offer2.webp" width="100px"  alt=""/>
+                            </div>
+                            <div class="card-footer text-center">
+                              <h6 class="card-title ">3B Burger</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-toggle="modal" data-target="#myModal3" class="col-lg-2 col-6 mb-5 mb-lg-0">
+                        <div class="card cardProduct">
+                            <div class="card-header bg-white d-flex justify-content-center" >
+                                <img src="images/offer3.webp" width="100px"  alt=""/>
+                            </div>
+                            <div class="card-footer text-center">
+                              <h6 class="card-title ">3eish w Mal7</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-toggle="modal" data-target="#myModal4" class="col-lg-2 col-6">
+                        <div class="card cardProduct">
+                            <div class="card-header bg-white d-flex justify-content-center" >
+                                <img src="images/offer4.webp" width="100px"  alt=""/>
+                            </div>
+                            <div class="card-footer text-center">
+                              <h6 class="card-title ">3m Khaled</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-toggle="modal" data-target="#myModal5" class="col-lg-2 d-none d-lg-block">
+                        <div class="card cardProduct">
+                            <div class="card-header bg-white d-flex justify-content-center" >
+                                <img src="images/offer5.webp" width="100px"  alt=""/>
+                            </div>
+                            <div class="card-footer text-center">
+                              <h6 class="card-title ">3mo Gambari</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- row 4 -->
+
+                <!-- row 5 -->
+                <div class="row justify-content-around mb-lg-4 ">
+                    <div data-toggle="modal" data-target="#myModal1" class="col-lg-2 col-6 mb-5 mb-lg-0">
+                        <div class="card cardProduct">
+                            <div class="card-header bg-white d-flex justify-content-center" >
+                                <img src="images/offer1.webp" width="100px"  alt=""/>
+                            </div>
+                            <div class="card-footer text-center">
+                              <h6 class="card-title ">3a Tasa</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-toggle="modal" data-target="#myModal2" class="col-lg-2 col-6 ">
+                        <div class="card cardProduct">
+                            <div class="card-header bg-white d-flex justify-content-center" >
+                                <img src="images/offer2.webp" width="100px"  alt=""/>
+                            </div>
+                            <div class="card-footer text-center">
+                              <h6 class="card-title ">3B Burger</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-toggle="modal" data-target="#myModal3" class="col-lg-2 col-6 mb-5 mb-lg-0">
+                        <div class="card cardProduct">
+                            <div class="card-header bg-white d-flex justify-content-center" >
+                                <img src="images/offer3.webp" width="100px"  alt=""/>
+                            </div>
+                            <div class="card-footer text-center">
+                              <h6 class="card-title ">3eish w Mal7</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-toggle="modal" data-target="#myModal4" class="col-lg-2 col-6">
+                        <div class="card cardProduct">
+                            <div class="card-header bg-white d-flex justify-content-center" >
+                                <img src="images/offer4.webp" width="100px"  alt=""/>
+                            </div>
+                            <div class="card-footer text-center">
+                              <h6 class="card-title ">3m Khaled</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-toggle="modal" data-target="#myModal5" class="col-lg-2 d-none d-lg-block">
+                        <div class="card cardProduct">
+                            <div class="card-header bg-white d-flex justify-content-center" >
+                                <img src="images/offer5.webp" width="100px"  alt=""/>
+                            </div>
+                            <div class="card-footer text-center">
+                              <h6 class="card-title ">3mo Gambari</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- row 5 -->
+
+                <!-- row 6 -->
+                <div class="row justify-content-around mb-lg-4 ">
+                    <div data-toggle="modal" data-target="#myModal1" class="col-lg-2 col-6 mb-5 mb-lg-0">
+                        <div class="card cardProduct">
+                            <div class="card-header bg-white d-flex justify-content-center" >
+                                <img src="images/offer1.webp" width="100px"  alt=""/>
+                            </div>
+                            <div class="card-footer text-center">
+                              <h6 class="card-title ">3a Tasa</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-toggle="modal" data-target="#myModal2" class="col-lg-2 col-6 ">
+                        <div class="card cardProduct">
+                            <div class="card-header bg-white d-flex justify-content-center" >
+                                <img src="images/offer2.webp" width="100px"  alt=""/>
+                            </div>
+                            <div class="card-footer text-center">
+                              <h6 class="card-title ">3B Burger</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-toggle="modal" data-target="#myModal3" class="col-lg-2 col-6 mb-5 mb-lg-0">
+                        <div class="card cardProduct">
+                            <div class="card-header bg-white d-flex justify-content-center" >
+                                <img src="images/offer3.webp" width="100px"  alt=""/>
+                            </div>
+                            <div class="card-footer text-center">
+                              <h6 class="card-title ">3eish w Mal7</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-toggle="modal" data-target="#myModal4" class="col-lg-2 col-6">
+                        <div class="card cardProduct">
+                            <div class="card-header bg-white d-flex justify-content-center" >
+                                <img src="images/offer4.webp" width="100px"  alt=""/>
+                            </div>
+                            <div class="card-footer text-center">
+                              <h6 class="card-title ">3m Khaled</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-toggle="modal" data-target="#myModal5" class="col-lg-2 d-none d-lg-block">
+                        <div class="card cardProduct">
+                            <div class="card-header bg-white d-flex justify-content-center" >
+                                <img src="images/offer5.webp" width="100px"  alt=""/>
+                            </div>
+                            <div class="card-footer text-center">
+                              <h6 class="card-title ">3mo Gambari</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- row 6 -->
+
+
+                <nav aria-label="Page navigation" class="pb-5 " style="overflow-y: auto;">
+                    <ul class="pagination justify-content-center " >
+                      <li class="page-item disabled">
+                        <a class="page-link" href="#" tabindex="-1"><span class="fa fa-angle-double-left"></span></a>
+                      </li>
+                      <li class="page-item"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item"><a class="page-link" href="#">4</a></li>
+                      <li class="page-item"><a class="page-link" href="#">5</a></li>
+                      <li class="page-item"><a class="page-link" href="#">6</a></li>
+                      <li class="page-item"><a class="page-link" href="#">7</a></li>
+                      <li class="page-item"><a class="page-link" href="#">8</a></li>
+                      <li class="page-item"><a class="page-link" href="#">9</a></li>
+                      <li class="page-item"><a class="page-link" href="#">10</a></li>
+                      <li class="page-item"><a class="page-link" href="#">11</a></li>
+                      <li class="page-item"><a class="page-link" href="#">12</a></li>
+                      <li class="page-item"><a class="page-link" href="#">13</a></li>
+                      <li class="page-item"><a class="page-link" href="#">14</a></li>
+                      <li class="page-item"><a class="page-link" href="#">15</a></li>
+                      <li class="page-item"><a class="page-link" href="#">16</a></li>
+                      <li class="page-item"><a class="page-link" href="#">17</a></li>
+                      <li class="page-item"><a class="page-link" href="#">18</a></li>
+                      <li class="page-item">
+                        <a class="page-link" href="#"><span class="fa fa-angle-double-right"></span></a>
+                      </li>
+                    </ul>
+                </nav>
+                        
+
+                </div>
+                <!-- container Promotions-->
+
+
+
+
+                <!-- container  Coupons-->
+                <div class="container" id="myDIV2" style="display: none;">
+
+                    <!-- row 1 -->
+                    <div class="row justify-content-around mb-lg-4">
+                        <div data-toggle="modal" data-target="#myModal1" class="col-lg-2 col-6 mb-5 mb-lg-0">
+                            <div class="card cardProduct">
+                                <div class="card-header bg-white d-flex justify-content-center" >
+                                    <img src="images/Cuopons1.jpg" width="100px"  alt=""/>
+                                </div>
+                                <div class="card-footer text-center">
+                                  <h6 class="card-title ">3B Burger</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-toggle="modal" data-target="#myModal3" class="col-lg-2 col-6 mb-5 mb-lg-0">
+                            <div class="card cardProduct">
+                                <div class="card-header bg-white d-flex justify-content-center" >
+                                    <img src="images/offer3.webp" width="100px"  alt=""/>
+                                </div>
+                                <div class="card-footer text-center">
+                                  <h6 class="card-title ">3eish w Mal7</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-toggle="modal" data-target="#myModal3" class="col-lg-2 col-6 mb-5 mb-lg-0">
+                            <div class="card cardProduct">
+                                <div class="card-header bg-white d-flex justify-content-center" >
+                                    <img src="images/Cuopons2.jpg" width="100px"  alt=""/>
+                                </div>
+                                <div class="card-footer text-center">
+                                  <h6 class="card-title ">4 Seasons Crepe</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-toggle="modal" data-target="#myModal4" class="col-lg-2 col-6">
+                            <div class="card cardProduct">
+                                <div class="card-header bg-white d-flex justify-content-center" >
+                                    <img src="images/Cuopons3.jpg" width="100px"  alt=""/>
+                                </div>
+                                <div class="card-footer text-center">
+                                  <h6 class="card-title ">7 Days Crepe</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-toggle="modal" data-target="#myModal5" class="col-lg-2 d-none d-lg-block">
+                            <div class="card cardProduct">
+                                <div class="card-header bg-white d-flex justify-content-center" >
+                                    <img src="images/Cuopons4.jpg" width="100px"  alt=""/>
+                                </div>
+                                <div class="card-footer text-center">
+                                  <h6 class="card-title ">A3da Araby</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- row 1 -->
+    
+                    <!-- row 2 -->
+                    <div class="row justify-content-around mb-lg-4">
+                        <div data-toggle="modal" data-target="#myModal1" class="col-lg-2 col-6 mb-5 mb-lg-0">
+                            <div class="card cardProduct">
+                                <div class="card-header bg-white d-flex justify-content-center" >
+                                    <img src="images/Cuopons1.jpg" width="100px"  alt=""/>
+                                </div>
+                                <div class="card-footer text-center">
+                                  <h6 class="card-title ">3B Burger</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-toggle="modal" data-target="#myModal3" class="col-lg-2 col-6 mb-5 mb-lg-0">
+                            <div class="card cardProduct">
+                                <div class="card-header bg-white d-flex justify-content-center" >
+                                    <img src="images/offer3.webp" width="100px"  alt=""/>
+                                </div>
+                                <div class="card-footer text-center">
+                                  <h6 class="card-title ">3eish w Mal7</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-toggle="modal" data-target="#myModal3" class="col-lg-2 col-6 mb-5 mb-lg-0">
+                            <div class="card cardProduct">
+                                <div class="card-header bg-white d-flex justify-content-center" >
+                                    <img src="images/Cuopons2.jpg" width="100px"  alt=""/>
+                                </div>
+                                <div class="card-footer text-center">
+                                  <h6 class="card-title ">4 Seasons Crepe</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-toggle="modal" data-target="#myModal4" class="col-lg-2 col-6">
+                            <div class="card cardProduct">
+                                <div class="card-header bg-white d-flex justify-content-center" >
+                                    <img src="images/Cuopons3.jpg" width="100px"  alt=""/>
+                                </div>
+                                <div class="card-footer text-center">
+                                  <h6 class="card-title ">7 Days Crepe</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-toggle="modal" data-target="#myModal5" class="col-lg-2 d-none d-lg-block">
+                            <div class="card cardProduct">
+                                <div class="card-header bg-white d-flex justify-content-center" >
+                                    <img src="images/Cuopons4.jpg" width="100px"  alt=""/>
+                                </div>
+                                <div class="card-footer text-center">
+                                  <h6 class="card-title ">A3da Araby</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- row 2 -->
+    
+                    <!-- row 3 -->
+                    <div class="row justify-content-around mb-lg-4">
+                        <div data-toggle="modal" data-target="#myModal1" class="col-lg-2 col-6 mb-5 mb-lg-0">
+                            <div class="card cardProduct">
+                                <div class="card-header bg-white d-flex justify-content-center" >
+                                    <img src="images/Cuopons1.jpg" width="100px"  alt=""/>
+                                </div>
+                                <div class="card-footer text-center">
+                                  <h6 class="card-title ">3B Burger</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-toggle="modal" data-target="#myModal3" class="col-lg-2 col-6 mb-5 mb-lg-0">
+                            <div class="card cardProduct">
+                                <div class="card-header bg-white d-flex justify-content-center" >
+                                    <img src="images/offer3.webp" width="100px"  alt=""/>
+                                </div>
+                                <div class="card-footer text-center">
+                                  <h6 class="card-title ">3eish w Mal7</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-toggle="modal" data-target="#myModal3" class="col-lg-2 col-6 mb-5 mb-lg-0">
+                            <div class="card cardProduct">
+                                <div class="card-header bg-white d-flex justify-content-center" >
+                                    <img src="images/Cuopons2.jpg" width="100px"  alt=""/>
+                                </div>
+                                <div class="card-footer text-center">
+                                  <h6 class="card-title ">4 Seasons Crepe</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-toggle="modal" data-target="#myModal4" class="col-lg-2 col-6">
+                            <div class="card cardProduct">
+                                <div class="card-header bg-white d-flex justify-content-center" >
+                                    <img src="images/Cuopons3.jpg" width="100px"  alt=""/>
+                                </div>
+                                <div class="card-footer text-center">
+                                  <h6 class="card-title ">7 Days Crepe</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-toggle="modal" data-target="#myModal5" class="col-lg-2 d-none d-lg-block">
+                            <div class="card cardProduct">
+                                <div class="card-header bg-white d-flex justify-content-center" >
+                                    <img src="images/Cuopons4.jpg" width="100px"  alt=""/>
+                                </div>
+                                <div class="card-footer text-center">
+                                  <h6 class="card-title ">A3da Araby</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- row 3 -->
+    
+                    <!-- row 4 -->
+                    <div class="row justify-content-around mb-lg-4">
+                        <div data-toggle="modal" data-target="#myModal1" class="col-lg-2 col-6 mb-5 mb-lg-0">
+                            <div class="card cardProduct">
+                                <div class="card-header bg-white d-flex justify-content-center" >
+                                    <img src="images/Cuopons1.jpg" width="100px"  alt=""/>
+                                </div>
+                                <div class="card-footer text-center">
+                                  <h6 class="card-title ">3B Burger</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-toggle="modal" data-target="#myModal3" class="col-lg-2 col-6 mb-5 mb-lg-0">
+                            <div class="card cardProduct">
+                                <div class="card-header bg-white d-flex justify-content-center" >
+                                    <img src="images/offer3.webp" width="100px"  alt=""/>
+                                </div>
+                                <div class="card-footer text-center">
+                                  <h6 class="card-title ">3eish w Mal7</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-toggle="modal" data-target="#myModal3" class="col-lg-2 col-6 mb-5 mb-lg-0">
+                            <div class="card cardProduct">
+                                <div class="card-header bg-white d-flex justify-content-center" >
+                                    <img src="images/Cuopons2.jpg" width="100px"  alt=""/>
+                                </div>
+                                <div class="card-footer text-center">
+                                  <h6 class="card-title ">4 Seasons Crepe</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-toggle="modal" data-target="#myModal4" class="col-lg-2 col-6">
+                            <div class="card cardProduct">
+                                <div class="card-header bg-white d-flex justify-content-center" >
+                                    <img src="images/Cuopons3.jpg" width="100px"  alt=""/>
+                                </div>
+                                <div class="card-footer text-center">
+                                  <h6 class="card-title ">7 Days Crepe</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-toggle="modal" data-target="#myModal5" class="col-lg-2 d-none d-lg-block">
+                            <div class="card cardProduct">
+                                <div class="card-header bg-white d-flex justify-content-center" >
+                                    <img src="images/Cuopons4.jpg" width="100px"  alt=""/>
+                                </div>
+                                <div class="card-footer text-center">
+                                  <h6 class="card-title ">A3da Araby</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- row 4 -->
+    
+                    <!-- row 5 -->
+                    <div class="row justify-content-around mb-lg-4">
+                        <div data-toggle="modal" data-target="#myModal1" class="col-lg-2 col-6 mb-5 mb-lg-0">
+                            <div class="card cardProduct">
+                                <div class="card-header bg-white d-flex justify-content-center" >
+                                    <img src="images/Cuopons1.jpg" width="100px"  alt=""/>
+                                </div>
+                                <div class="card-footer text-center">
+                                  <h6 class="card-title ">3B Burger</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-toggle="modal" data-target="#myModal3" class="col-lg-2 col-6 mb-5 mb-lg-0">
+                            <div class="card cardProduct">
+                                <div class="card-header bg-white d-flex justify-content-center" >
+                                    <img src="images/offer3.webp" width="100px"  alt=""/>
+                                </div>
+                                <div class="card-footer text-center">
+                                  <h6 class="card-title ">3eish w Mal7</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-toggle="modal" data-target="#myModal3" class="col-lg-2 col-6 mb-5 mb-lg-0">
+                            <div class="card cardProduct">
+                                <div class="card-header bg-white d-flex justify-content-center" >
+                                    <img src="images/Cuopons2.jpg" width="100px"  alt=""/>
+                                </div>
+                                <div class="card-footer text-center">
+                                  <h6 class="card-title ">4 Seasons Crepe</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-toggle="modal" data-target="#myModal4" class="col-lg-2 col-6">
+                            <div class="card cardProduct">
+                                <div class="card-header bg-white d-flex justify-content-center" >
+                                    <img src="images/Cuopons3.jpg" width="100px"  alt=""/>
+                                </div>
+                                <div class="card-footer text-center">
+                                  <h6 class="card-title ">7 Days Crepe</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-toggle="modal" data-target="#myModal5" class="col-lg-2 d-none d-lg-block">
+                            <div class="card cardProduct">
+                                <div class="card-header bg-white d-flex justify-content-center" >
+                                    <img src="images/Cuopons4.jpg" width="100px"  alt=""/>
+                                </div>
+                                <div class="card-footer text-center">
+                                  <h6 class="card-title ">A3da Araby</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- row 5 -->
+    
+                    <!-- row 6 -->
+                    <div class="row justify-content-around mb-lg-4">
+                        <div data-toggle="modal" data-target="#myModal1" class="col-lg-2 col-6 mb-5 mb-lg-0">
+                            <div class="card cardProduct">
+                                <div class="card-header bg-white d-flex justify-content-center" >
+                                    <img src="images/Cuopons1.jpg" width="100px"  alt=""/>
+                                </div>
+                                <div class="card-footer text-center">
+                                  <h6 class="card-title ">3B Burger</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-toggle="modal" data-target="#myModal3" class="col-lg-2 col-6 mb-5 mb-lg-0">
+                            <div class="card cardProduct">
+                                <div class="card-header bg-white d-flex justify-content-center" >
+                                    <img src="images/offer3.webp" width="100px"  alt=""/>
+                                </div>
+                                <div class="card-footer text-center">
+                                  <h6 class="card-title ">3eish w Mal7</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-toggle="modal" data-target="#myModal3" class="col-lg-2 col-6 mb-5 mb-lg-0">
+                            <div class="card cardProduct">
+                                <div class="card-header bg-white d-flex justify-content-center" >
+                                    <img src="images/Cuopons2.jpg" width="100px"  alt=""/>
+                                </div>
+                                <div class="card-footer text-center">
+                                  <h6 class="card-title ">4 Seasons Crepe</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-toggle="modal" data-target="#myModal4" class="col-lg-2 col-6">
+                            <div class="card cardProduct">
+                                <div class="card-header bg-white d-flex justify-content-center" >
+                                    <img src="images/Cuopons3.jpg" width="100px"  alt=""/>
+                                </div>
+                                <div class="card-footer text-center">
+                                  <h6 class="card-title ">7 Days Crepe</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-toggle="modal" data-target="#myModal5" class="col-lg-2 d-none d-lg-block">
+                            <div class="card cardProduct">
+                                <div class="card-header bg-white d-flex justify-content-center" >
+                                    <img src="images/Cuopons4.jpg" width="100px"  alt=""/>
+                                </div>
+                                <div class="card-footer text-center">
+                                  <h6 class="card-title ">A3da Araby</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- row 6 -->
+    
+    
+                    <nav aria-label="Page navigation" class="pb-5 " style="overflow-y: auto;">
+                        <ul class="pagination justify-content-center " >
+                          <li class="page-item disabled">
+                            <a class="page-link" href="#" tabindex="-1"><span class="fa fa-angle-double-left"></span></a>
+                          </li>
+                          <li class="page-item"><a class="page-link" href="#">1</a></li>
+                          <li class="page-item"><a class="page-link" href="#">2</a></li>
+                          <li class="page-item"><a class="page-link" href="#">3</a></li>
+                          <li class="page-item"><a class="page-link" href="#">4</a></li>
+                          <li class="page-item"><a class="page-link" href="#">5</a></li>
+                          <li class="page-item"><a class="page-link" href="#">6</a></li>
+                          <li class="page-item"><a class="page-link" href="#">7</a></li>
+                          <li class="page-item"><a class="page-link" href="#">8</a></li>
+                          <li class="page-item"><a class="page-link" href="#">9</a></li>
+                          <li class="page-item"><a class="page-link" href="#">10</a></li>
+                          <li class="page-item"><a class="page-link" href="#">11</a></li>
+                          <li class="page-item"><a class="page-link" href="#">12</a></li>
+                          <li class="page-item"><a class="page-link" href="#">13</a></li>
+                          <li class="page-item"><a class="page-link" href="#">14</a></li>
+                          <li class="page-item"><a class="page-link" href="#">15</a></li>
+                          <li class="page-item"><a class="page-link" href="#">16</a></li>
+                          <li class="page-item"><a class="page-link" href="#">17</a></li>
+                          <li class="page-item"><a class="page-link" href="#">18</a></li>
+                          <li class="page-item">
+                            <a class="page-link" href="#"><span class="fa fa-angle-double-right"></span></a>
+                          </li>
+                        </ul>
+                    </nav>
+                            
+    
+                    </div>
+                <!-- container  Coupons-->
+
+            </div>
+
+            <!-- container models -->
+            <div class="container">
+                <!-- The Modal 1 -->
+                <div class="modal hide fade in" data-keyboard="false" data-backdrop="static" id="myModal1">
+                    <div class="modal-dialog modal-dialog-centered modal-lg ">
+                        <div class="modal-content ">
+                            <!-- model header -->
+                            <div class="modal-header">
+                                <h4 style="color: rgb(255, 102, 0);">Offers from 3a Tasa</h4>
+                                 <!-- close x model -->
+                                 <button  type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                 <span aria-hidden="true">&times;</span>
+                                 </button>
+                            </div>
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- The Modal 1-->
+
+                <!-- The Modal 2 -->
+                <div class="modal hide fade in" data-keyboard="false" data-backdrop="static" id="myModal2">
+                    <div class="modal-dialog modal-dialog-centered modal-lg ">
+                        <div class="modal-content ">
+                            <!-- model header -->
+                            <div class="modal-header">
+                                <h4 style="color: rgb(255, 102, 0);">Offers from 3B Burger</h4>
+                                 <!-- close x model -->
+                                 <button  type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                 <span aria-hidden="true">&times;</span>
+                                 </button>
+                            </div>
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                                <div class="container">
+                                    <!-- row -->
+                                    <div class="row " style="background-color: rgb(245, 244, 244);padding-top: 10px;">
+                                        <div class="col-2"><img src="images/offer6.webp" class="imgModelOffer" /></div>
+                                        <div class="col-8">
+                                            <h5>One Person Offer</h5>
+                                            <p>Double cheese burger sandwich served with French fries and Coca-Cola can</p>
+                                        </div>
+                                        <div class="col-2 text-right textModelOffer" style="color: rgb(255, 102, 0);"><h6>EGP 65.00</h6></div>
+                                    </div>
+                                    <!-- row -->
+                                    <div class="row " style="padding-top: 10px;">
+                                        <div class="col-2"><img src="images/offer6.webp" class="imgModelOffer" /></div>
+                                        <div class="col-8">
+                                            <h5>Two Persons Offer</h5>
+                                            <p>2 double cheese burger sandwiches served with 2 french fries and 2 coca-cola cans with 100 egp instead of 122</p>
+                                        </div>
+                                        <div class="col-2 text-right textModelOffer" style="color: rgb(255, 102, 0);"><h6>EGP 125.00</h6></div>
+                                    </div>
+                                    <!-- row -->
+                                    <div class="row " style="background-color: rgb(245, 244, 244);padding-top: 10px;">
+                                        <div class="col-2"><img src="images/Offer-image-not-available.svg" class="imgModelOffer" /></div>
+                                        <div class="col-8">
+                                            <h5 class="textModelOffer">Cheese Burger Sandwich</h5>
+                                        </div>
+                                        <div class="col-2 text-right textModelOffer" style="color: rgb(255, 102, 0);"><h6>EGP 32.00</h6></div>
+                                    </div>
+                                     <!-- row -->
+                                     <div class="row " style="padding-top: 10px;">
+                                        <div class="col-2"><img src="images/Offer-image-not-available.svg" class="imgModelOffer" /></div>
+                                        <div class="col-8">
+                                            <h5 class="textModelOffer">Chicken Burger Sandwich</h5>
+                                        </div>
+                                        <div class="col-2 text-right textModelOffer" style="color: rgb(255, 102, 0);"><h6>EGP 35.00</h6></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Modal body -->
+                        </div>
+                    </div>
+                </div>
+                <!-- The Modal 2-->
+
+                <!-- The Modal 3 -->
+                <div class="modal hide fade in" data-keyboard="false" data-backdrop="static" id="myModal3">
+                    <div class="modal-dialog modal-dialog-centered modal-lg ">
+                        <div class="modal-content ">
+                            <!-- model header -->
+                            <div class="modal-header">
+                                <h4 style="color: rgb(255, 102, 0);">Offers from 3eish w Mal7</h4>
+                                 <!-- close x model -->
+                                 <button  type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                 <span aria-hidden="true">&times;</span>
+                                 </button>
+                            </div>
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                                <div class="container">
+                                    <!-- row -->
+                                    <div class="row " style="background-color: rgb(245, 244, 244);padding-top: 10px;">
+                                        <div class="col-2"><img src="images/Offer-image-not-available.svg" class="imgModelOffer" /></div>
+                                        <div class="col-8">
+                                            <h5>2 Persons Meal Offer</h5>
+                                            <p>Breaded chicken sandwich, chicken with cheese 'n' salami sandwich, 6 pieces of chicken wings with honey bbq sauce, french fries with cheese 'n' jalapeno and 2 soft drink cans of your choice.</p>
+                                        </div>
+                                        <div class="col-2 text-right textModelOffer" style="color: rgb(255, 102, 0);"><h6>EGP 178.00</h6></div>
+                                    </div>
+                                    <!-- row -->
+                                    <div class="row " style="padding-top: 10px;">
+                                        <div class="col-2"><img src="images/Offer-image-not-available.svg" class="imgModelOffer" /></div>
+                                        <div class="col-8">
+                                            <h5>6 Persons Meal Offer</h5>
+                                            <p>
+                                                Alexandrian liver sandwich, grilled liver sandwich, oriental sausage sandwich, grilled sausage sandwich, 
+                                                cordon bleu sandwich, grilled chicken sandwich, 9 pieces bbq chicken wings with honey and french fries with 
+                                                cheese and jalapeno and soft drink liter, enough for 6 person.
+                                            </p>
+                                        </div>
+                                        <div class="col-2 text-right textModelOffer" style="color: rgb(255, 102, 0);"><h6>EGP 374.00</h6></div>
+                                    </div>
+                                    <!-- row -->
+                                    <div class="row " style="background-color: rgb(245, 244, 244);padding-top: 10px;">
+                                        <div class="col-2"><img src="images/Offer-image-not-available.svg" class="imgModelOffer" /></div>
+                                        <div class="col-8">
+                                            <h5>4 Persons Meal Offer</h5>
+                                            <p>Alexandrian liver sandwich, oriental sausage sandwich, hawawshi, kofta sandwich, 6 pieces bbq chicken wings with honey and french fries with cheese and jalapeno and soft drink liter, enough for 4 persons.</p>
+                                        </div>
+                                        <div class="col-2 text-right textModelOffer" style="color: rgb(255, 102, 0);"><h6>EGP 244.00</h6></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Modal body -->
+                        </div>
+                    </div>
+                </div>
+                <!-- The Modal 3-->
+
+                <!-- The Modal 4 -->
+                <div class="modal hide fade in" data-keyboard="false" data-backdrop="static" id="myModal4">
+                    <div class="modal-dialog modal-dialog-centered modal-lg ">
+                        <div class="modal-content ">
+                            <!-- model header -->
+                            <div class="modal-header">
+                                <h4 style="color: rgb(255, 102, 0);">Offers from 3m Khaled</h4>
+                                 <!-- close x model -->
+                                 <button  type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                 <span aria-hidden="true">&times;</span>
+                                 </button>
+                            </div>
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- The Modal 4-->
+
+                <!-- The Modal 5 -->
+                <div class="modal hide fade in" data-keyboard="false" data-backdrop="static" id="myModal5">
+                    <div class="modal-dialog modal-dialog-centered modal-lg ">
+                        <div class="modal-content ">
+                            <!-- model header -->
+                            <div class="modal-header">
+                                <h4 style="color: rgb(255, 102, 0);">Offers from 3mo Gambari</h4>
+                                 <!-- close x model -->
+                                 <button  type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                 <span aria-hidden="true">&times;</span>
+                                 </button>
+                            </div>
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- The Modal 5-->
+
+
+            </div>
+            <!-- container models -->
+
+        </section>
+        <!-- Body -->
+
+        <!-- Footer -->
+        <footer style="background-color: rgb(44, 44, 44);">
+            <!-- Footer Links -->
+            <div class="container">
+                <!-- Grid row-->
+                <div class="row text-center d-flex justify-content-around pt-4 mb-3">
+                    <!-- Grid column -->
+                    <div class="col-md-1 ">
+                        <p >
+                            <a class="LinkFooter" style="text-decoration: none;" href="FeedBack.html">Feedback</a>
+                        </p>
+                    </div> 
+                    <!-- Grid column -->
+                    
+                    <!-- Grid column -->
+                    <div class="col-md-1 ">
+                        <p >
+                            <a class="LinkFooter" style="text-decoration: none;"  href="#">Careers</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+                    
+                    <!-- Grid column -->
+                    <div class="col-md-1 ">
+                        <p>
+                            <a class="LinkFooter" style="text-decoration: none;" href="Terms.html">Terms</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+  
+                    <!-- Grid column -->
+                    <div class="col-md-1 ">
+                        <p >
+                            <a class="LinkFooter" style="text-decoration: none;" href="FAQ.html">FAQ</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+  
+                    <!-- Grid column -->
+                    <div class="col-md-1 ">
+                        <p>
+                            <a class="LinkFooter" style="text-decoration: none;"  href="PrivacyPolicy.html">Privacy</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-1 ">
+                        <p >
+                            <a class="LinkFooter" style="text-decoration: none;" href="ContactUs.html">ContactUs</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-1 ">
+                        <p >
+                            <a class="LinkFooter" style="text-decoration: none;" href="SiteMap.html">Sitemap</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+  
+                </div>
+                
+
+                <!-- Grid row-->
+                <hr  style="margin: 0 5%;background-color: rgb(83, 83, 83);width: 90%;">
+                
+
+                <!-- Grid row-->
+                <div class="row d-flex  justify-content-center mb-md-0 mb-4">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-12 mt-4 ">
+                        <p class="LinkFooterHeads">Restaurants</p>
+
+                        <ul class="list-unstyled">
+                          <li class="mb-2" >                 
+                              <a href="#" style="color: white; text-decoration: none;" >Most Selling</a>          
+                          </li>
+                          <li class="mb-2">
+                              <a href="#" style="color: white; text-decoration: none;">Taboon</a>
+                          </li>
+                          <li class="mb-2">
+                              <a href="#" style="color: white; text-decoration: none;">Dawar Farah - Mohandiseen</a>
+                          </li>
+                          <li class="mb-2">
+                              <a href="#" style="color: white; text-decoration: none;">Indira</a>
+                          </li>
+                          <li class="mb-2">
+                            <a href="#" style="color: white; text-decoration: none;">Al Aseel El Demashky-Tagammoa 5</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#" style="color: white; text-decoration: none;">Lan Yuan - Maadi</a>
+                        </li>
+                        <li>
+                            <a href="AllResturant.html" style="color: gray; text-decoration: none;font-style: italic;">More Restaurants...</a>
+                        </li>
+                        </ul>                
+                    </div>
+                    <!-- Grid column -->
+
+
+                    <!-- Grid column -->
+                     <div class="col-md-3 col-12 mt-4 ">
+                        <p class="LinkFooterHeads">Popular Cuisines</p>
+
+                        <ul class="list-unstyled">
+                          <li class="mb-2" >                 
+                              <a href="#" style="color: white; text-decoration: none;" >Italian</a>          
+                          </li>
+                          <li class="mb-2">
+                              <a href="#" style="color: white; text-decoration: none;">Mexican </a>
+                          </li>
+                          <li class="mb-2">
+                              <a href="#" style="color: white; text-decoration: none;">Sandwiches</a>
+                          </li>
+                          <li class="mb-2">
+                              <a href="#" style="color: white; text-decoration: none;">Japanese </a>
+                          </li>
+                          <li class="mb-2">
+                            <a href="#" style="color: white; text-decoration: none;">Pizza</a>
+                        </li>
+                        <li>
+                            <a href="SiteMap.html" style="color: gray; text-decoration: none;font-style: italic;">More Cuisines....</a>
+                        </li>
+                        </ul>                
+                    </div>
+                    <!-- Grid column -->
+
+
+                    <!-- Grid column -->
+                     <div class="col-md-3 col-12 mt-4 ">
+                        <p class="LinkFooterHeads">Popular Areas</p>
+
+                        <ul class="list-unstyled">
+                          <li class="mb-2" >                 
+                              <a href="#" style="color: white; text-decoration: none;" >Masaken El Rehab</a>          
+                          </li>
+                          <li class="mb-2">
+                              <a href="#" style="color: white; text-decoration: none;">Mostashfa AlHommeyat </a>
+                          </li>
+                          <li class="mb-2">
+                              <a href="#" style="color: white; text-decoration: none;">Salah ElDin Street</a>
+                          </li>
+                          <li class="mb-2">
+                              <a href="#" style="color: white; text-decoration: none;">Salah Nessim Street </a>
+                          </li>
+                          <li class="mb-2">
+                            <a href="#" style="color: white; text-decoration: none;">Shabab El Mosalas</a>
+                        </li>
+                        <li>
+                            <a href="SiteMap.html" style="color: gray; text-decoration: none;font-style: italic;">More Areas...</a>
+                        </li>
+                        </ul>                
+                    </div>
+                    <!-- Grid column -->
+
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-12 mt-4 ">
+                        <p class="LinkFooterHeads mb-5">Follow us on</p>
+
+                        <div class="row justify-content-around mb-4">
+                            <a href="http://www.facebook.com/Talabat"><li style="color: white;" class="fa fa-facebook fa-2x"></li></a>
+                            <a href="http://twitter.com/Talabat"><li style="color: white;" class="fa fa-twitter fa-2x"></li></a>
+                            <a href="http://instagram.com/Talabat"><li style="color: white;" class="fa fa-instagram fa-2x"></li></a>
+                            <a href="https://www.linkedin.com/company/3604171"><li style="color: white;" class="fa fa-linkedin fa-2x"></li></a>
+                            <a href="http://www.youtube.com/TalabatGTC"><li style="color: white;" class="fa fa-youtube fa-2x"></li></a>
+                        </div>
+                        <hr  style="margin: 0 5%;background-color: rgb(83, 83, 83);width: 90%;">
+                    </div>
+                    <!-- Grid column -->
+
+                </div>
+                <!-- Grid row-->
+
+
+                 <!-- Grid row-->
+                 <hr  style="margin: 0 5%;background-color: rgb(83, 83, 83);width: 90%;">
+
+
+                 <!-- Grid row-->
+                <div class="row d-flex   mb-md-0 ">
+                    <div class="col-md-6 col-12">
+                        <p class="LinkFooterHeads  mt-4">For any support or help you can contact us via our Live Chat</p>
+                    </div>
+                    <div class="col-md-6 d-none d-md-block ">
+                        <p class="LinkFooterHeads  mt-4 text-right"> &copy;2021 Talabat.com</p>
+                    </div>
+                </div>
+
+
+                 <!-- Grid row-->
+                 <div class="row d-flex justify-content-end  mb-md-0 text-center ">
+                     <!-- <div class="col-md-12 d-none d-md-block"> -->
+                        <a href="ContactUs.html" style="color: white;background-color: rgb(255, 94, 0);width: 200px;height: 30px;border-top-right-radius: 5px;border-top-left-radius: 5px;text-decoration: none;"><i class="fa fa-comment"></i> Contact Us</a>
+                     <!-- </div> -->
+                 </div>
+
+
+            </div>
+  
+        </footer>
+        <!-- Footer -->
+
+
+        <script src="js/JQuery-3.3.1.min.js"></script>
+        <script src="js/popper.js"></script>
+        <script src="js/bootstrap.js"></script>
+
+        <script>   
+        // close model from close mark only
+        $('#MymodalPreventScript').modal({
+    		backdrop: 'static',
+    		keyboard: false
+		}); 
+
+        // toggle page content
+        var x = document.getElementById("myDIV");
+        var x2 = document.getElementById("myDIV2");
+        var Promotions = document.getElementsByClassName("Tittle")[0];
+        var Coupons = document.getElementsByClassName("Tittle")[1];
+        var borderPromotions = document.getElementsByClassName("borderBootom")[0];
+        var borderCoupons = document.getElementsByClassName("borderBootom")[1];
+
+        function myFunction() {
+            if (x.style.display === "none") {
+                x.style.display = "block";
+                x2.style.display = "none";
+                Promotions.style.color = "#F94F00"
+                Coupons.style.color = "black"
+                borderPromotions.style.borderBottom = "4px solid #F94F00";
+                borderCoupons.style.borderBottom = "none";
+            }
+        }
+        
+        function myFunction2() {
+            if (x2.style.display === "none") {
+                x2.style.display = "block";
+                x.style.display = "none"
+                Promotions.style.color = "black"
+                Coupons.style.color = "#F94F00"
+                borderCoupons.style.borderBottom = "4px solid #F94F00";
+                borderPromotions.style.borderBottom = "none";
+            } 
+        }
+      
+      </script>
+    </body>
+
+</html>

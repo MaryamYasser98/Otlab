@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Flags Style */
+.navbar {
+    padding: 5px;
+  }
+  
+  .navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    /* align-items: center; */
+  }
+  
+  .navbar li {
+    position: relative;
+  }
+  
+  .navbar a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 10px 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    color: #fffbfb;
+    white-space: nowrap;
+    transition: 0.3s;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  
+  .navbar .dropdown ul {
+    display: block;
+    position: absolute;
+    left: 14px;
+    margin: 0;
+    width: 150px;
+    visibility: hidden;
+    background: rgb(253, 251, 251);
+    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+    border-radius: 15px;
+  }
+
+  .navbar .dropdown ul a {
+    color: rgb(17, 0, 90);
+    width: 150px;
+    text-align: center;
+    font-size: 15px;
+    text-transform: none;
+  }
+
+  
+  .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
+    background-color: #aaacac;
+  }
+  
+  .navbar .dropdown:hover > ul {
+    opacity: 1;
+    top: 100%;
+    visibility: visible;
+  }
+
+
+  /* close X */
+  /* .navbar-toggler>.close {
+    display:inline;
+}
+.navbar-toggler.collapsed>.close, .navbar-toggler:not(.collapsed)>.navbar-toggler-icon {
+    display:none;
+} */
+
+
+
+  /* .container {
+	padding: 20px 10px;
+} */
+
+
+
+/* Footer Style */
+.LinkFooter{
+    color: gray;
+    font-size: 15px;
+}
+.LinkFooter:hover{
+    color: rgb(255, 102, 0);
+}
+
+.LinkFooterHeads{
+    color: gray;
+    font-size: 15px;
+}
+
+
+/* search bar */
+.has-search .form-control {
+  padding-left: 2.375rem;
+  
+}
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  color: #aaa;
+}
+
+.txtSearch{
+  width: 25em; /*700px*/
+  height: 55px;
+  font-size: 18px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.btnSearch{
+  width: 150px;
+  height: 55px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  background-color: rgb(250, 79, 0);
+ 
+}
+.btnSearch:hover{
+  opacity: 0.5;
+}
+
+/* Model show hide p0assword */
+.pass_show{position: relative} 
+.pass_show .ptxt { 
+position: absolute; 
+top: 50%; 
+right: 20px; 
+z-index: 1; 
+color: #f36c01; 
+margin-top: -10px; 
+cursor: pointer; 
+transition: .3s ease all; 
+} 
+.pass_show .ptxt:hover{color: #333333;} 
+
+
+.ForgrtPass{
+  color: gray;
+}
+.ForgrtPass:hover{
+  color: #f36c01;
+}
+
+.Btnlogin{
+  font-size: 18px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  background-color: rgb(250, 79, 0);
+  border-radius: 10px;
+}
+.Btnlogin:hover{
+  opacity: 0.5;
+}
+
+/********************************************************* All resturant page  ******************************************************/
+/* search bar */
+.hassearch .form-control {
+  padding-left: 2.375rem;
+  
+}
+.hassearch .formcontrolfeedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  color: #aaa;
+}
+.txtSearch2{
+  width: 15em; 
+  font-size: 18px;
+  margin-right: 25px;
+}
+
+/* cards */
+.cardProduct{
+  box-shadow: none;
+  transition: all .1s ease-in-out;
+  cursor: pointer;
+  /* width: 200px; */
+}
+.card{
+  cursor: pointer;
+}
+.cardProduct:hover{
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  transform: scale(1.1);
+}
+.page-link{
+  color: #333333;
+}
+.page-link:hover{
+  color: #fc5102;
+}
+
+.URLPrivacy{
+  color: green;
+}
+.URLPrivacy:hover{
+  color: rgb(255, 94, 0);
+}
+
+
+/* Partener Page */
+.masthead{
+  height: 120vh;
+  min-height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* opacity: 0.8; */
+}
+
+.btnVendor{
+  background: transparent;
+  border: 3px solid rgb(207, 76, 0);
+  padding: 10px 20px 10px 20px;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 10px;
+}
+.btnVendor:hover{
+  background-color: rgba(207, 76, 0, 0.281);
+}
+
+/* Offers Page */
+
+.iconTitle{
+  font-size: 20px;
+  color: rgb(255, 153, 0);
+}
+.Tittle{
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.imgModelOffer{
+  border: 1px solid rgb(207, 206, 206);
+  padding: 5px;
+  width: 66px;
+}
+
+.textModelOffer{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* FeedBack page */
+
+.iconFace{
+  font-size: 40px;
+  color: rgb(161, 161, 161);
+  margin-bottom: 5px;
+  
+}
+
+.btnRate{
+  border: 1px solid rgb(211, 210, 210);
+  background-color: white;
+  width: 125px;
+  font-size: 13px;
+}
+.btnRate:focus{
+  background-color: rgb(95, 94, 94);
+  color: white;
+}
+
+.btnRate2{
+  border: 1px solid rgb(211, 210, 210);
+  background-color: white;
+  width: 5em;
+  font-size: 13px;
+}
+.btnRate2:focus{
+  background-color: rgb(95, 94, 94);
+  color: white;
+}
+.btnGreen{
+  background-color: rgb(35, 168, 35);
+  color: white;
+  text-transform: uppercase;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.btnGreen:hover{
+  background-color: green;
+}
+
+/* SiteMap Page */
+
+.PSiteMap{
+  color: rgb(255, 102, 0);
+  font-size: 25px;
+  font-weight: 500;
+}
+.aSiteMap{
+  color: black;
+}
+.aSiteMap:hover{
+  color: #fc5102;
+}
+
+/* contact us page */
+
+.HoverJoinUs{
+  font-weight: 0;
+}
+
+.HoverJoinUs:hover{
+  font-weight: 500;
+  border-bottom: 3px solid rgb(255, 72, 0);
+}

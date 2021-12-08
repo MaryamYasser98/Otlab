@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html  lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">       
+        <title>Order food online from delivery restaurants in Egypt | Talabat (Otlob)</title>
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap" rel="stylesheet">
+
+        <link href="css/bootstrap.css" rel="stylesheet"/>
+        <link href="css/font-awesome.css" rel="stylesheet"/>
+
+        <link rel="icon" href="images/favicon.ico"/>
+        <link href="css/Otlab.css" rel="stylesheet"/>
+        
+
+        
+        
+    </head>
+
+    <body>
+
+         <!-- NavBar -->
+         <header id="header" style="background-color: rgb(255, 104, 4);">
+            <div class="container d-flex justify-content-between">
+                <a class="navbar-brand " href="home.html" ><img src="images/logo1.jpg" height="60px" /></a>
+                <nav class="navbar navbar-expand-lg  navbar-light  lighten-4 pb-3 pl-3 p-md-0 " style="background-color: rgb(255, 104, 4);">
+                    <button   class="navbar-toggler" style="margin-left: auto;" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                        <!-- <span class="my-1 mx-2 close">X</span> -->
+                        <span  class="navbar-toggler-icon "></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbar">
+            
+                      <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link ml-2 ml-md-0" href="Offers.html" style="color: white;font-family: 'Noto Sans JP', sans-serif;">Offers </a>
+                        </li>
+            
+                        <li class="nav-item">
+                          <a class="nav-link ml-2 ml-md-0" href="Partner.html" target="_blank" style="color: white;font-family: 'Noto Sans JP', sans-serif;">Become a partner</a>
+                        </li>
+            
+                        <li class="nav-item ">
+                            <a class="nav-link ml-2 ml-md-0" href="AllResturant.html" style="color: white;font-family: 'Noto Sans JP', sans-serif;">All Restaurants</a>
+                        </li>
+            
+                        <li class="nav-item">
+                            <a class="nav-link ml-2 ml-md-0" href="#" style="color: white;font-family: 'Cairo', sans-serif;font-size: 17px;font-weight: 600;">العربية</a>
+                        </li>
+        
+                        <li class="dropdown" style="width:100px;">
+                            <a href="#"><span><img style="border-radius: 50%;width: 30px;" src="country-flags-16px/16/eg_16.png" /> </span></a>
+                            <ul style="padding-right: 200px">
+                                <li><a href="#"><img style="border-radius: 50%;width: 30px;" src="country-flags-16px/16/sa_16.png" />السعودية</a></li>
+                                <li><a href="#"><img  style="border-radius: 50%;width: 30px;" src="country-flags-16px/16/eg_16.png" />مصر</a></li>
+                                <li><a href="#"><img style="border-radius: 50%;width: 30px;" src="country-flags-16px/16/jo_16.png" />الاردن</a></li>
+                                <li><a href="#"><img style="border-radius: 50%;width: 30px;" src="country-flags-16px/16/lb_16.png" />لبنان</a></li>
+                                <li><a href="#"><img style="border-radius: 50%;width: 30px;" src="country-flags-16px/16/ng_16.png" />نيجيريا</a></li>
+                                <li><a href="#"><img style="border-radius: 50%;width: 30px;" src="country-flags-16px/16/ke_16.png" />كينيا</a></li>
+                                <li><a href="#"> <img style="border-radius: 50%;width: 30px;" src="country-flags-16px/16/global.jpg" />النسخة العالمية </a></li>
+                            </ul>
+                        </li> 
+                        
+        
+                        <li class="nav-item">
+                            <a data-toggle="modal" data-target="#myModal" class="nav-link ml-2 ml-md-0 text-center" href="#" style="border: 2px solid white;border-radius: 15px;color: white;font-family: 'Noto Sans JP', sans-serif;width: 80px;">Login</a>
+                        </li>
+                      </ul>
+            
+                    </div>
+                </nav> 
+            </div>
+        </header>  
+        <!-- NavBar -->
+
+
+        <!-- Header -->
+        <header style="background-color: rgb(250, 225, 218);padding-bottom: 80px;">    
+            <div class="container-fluid ">
+                <div class="row">
+                    <div class="col-md-3 d-none d-lg-block">
+                        <img src="images/header1.webp" style="width: 200px;margin-top: 80px;">
+                    </div>
+
+
+                    <div class="col-lg-6 col-12">
+
+                        <h1 class="text-center " style="margin-top: 200px;margin-bottom: 50px;">Order food online in Egypt</h1>
+
+                        <div class="row justify-content-lg-center">
+                            <div class="form-group has-search ml-3 ml-lg-0" >
+                                <span style="font-size: 30px;padding-top: 8px;" class="fa fa-map-marker  form-control-feedback"></span>
+                                <input  type="text" class=" txtSearch form-control" placeholder="Search for area, street name, landmark...">
+                            </div>
+
+                            <input type="button" class="btn btnSearch ml-3 ml-lg-0" value="Let's go">
+                        </div>
+
+                    </div>
+                    
+                    <div class="col-md-3 d-none d-lg-block">
+                        <img src="images/header2.webp" class="pull-right">
+                    </div>
+                </div>
+            </div>
+        </header>           
+        <!-- Header -->
+
+        <!-- Body -->
+        <section>
+
+            <!-- Container 1 -->
+            <div class="container-fluid ">
+
+                <div class="row justify-content-around mt-5">
+                    <div class="col-12 d-md-none d-block" style="background-color: rgb(228, 228, 253);max-width: 500px;border-radius: 10px;padding: 20px;">
+
+                        <div class="row">
+                            <div class="col-2" >
+                                <span style="font-size: 35px;margin-top: 15px;color: rgb(76, 76, 150);" class="fa fa-user-circle"></span>
+                            </div>
+                            <div class="col-8 " >
+                                <p>Enjoy a personalized ordering experience</p>
+
+                                <a style="font-size: 15px;color: rgb(248, 79, 1);cursor: pointer;" data-toggle="modal" data-target="#myModal">Login</a>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                     <!-- The Modal -->
+                     <div class="modal fade" id="myModal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                    <div class="container">
+                                        <!-- close x model -->
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                          </button>
+
+                                          <!-- row -->
+                                        <div class="row justify-content-center mb-3">
+                                            <h1>Login</h1>
+                                        </div>
+                                         <!-- row -->
+                                        <div class="row ">
+                                            <button style="font-size: 15px;color: gray;background-color: white;border: 1px solid rgb(211, 210, 210);border-radius: 0;margin-bottom: 15px;" type="button" class="btn  btn-lg btn-block"><a href="#"><img class="pull-left" src="https://img.icons8.com/color/16/000000/google-logo.png" width="25"></a> Continue with Google</button>
+                                        </div>
+                                         <!-- row -->
+                                        <div class="row ">
+                                            <button style="font-size: 15px;color: white;background-color: rgb(8, 128, 209);border-radius: 0;margin-bottom: 20px;" type="button" class="btn  btn-lg btn-block"><a href="#"><img class="pull-left" src="https://www.freepnglogos.com/uploads/facebook-logo-icon/facebook-logo-icon-file-facebook-icon-svg-wikimedia-commons-4.png" width="25" /></a> Continue with Facebook</button>
+                                        </div>
+                                         <!-- row -->
+                                        <div class="row justify-content-center">
+                                            <p>OR</p>
+                                        </div>
+                                         <!-- row -->
+                                        <div class="row mb-3">
+                                            <input type="email" value="" class="form-control " placeholder="Email"> 
+                                        </div>
+                                         <!-- row -->
+                                        <div class="row pass_show mb-5">
+                                            <input type="password" value="" class="form-control " placeholder="Password"> 
+                                        </div>
+                                         <!-- row -->
+                                        <div class="row justify-content-around mb-3">
+                                            <div class="col-6">
+                                                <div class="checkbox">
+                                                    <label> <input style="width: 30px;" type="checkbox" value=""> Keep Me logged in</label>
+                                                  </div>
+                                            </div>
+                                            <div class="col-5">
+                                                <a href="#" class="ForgrtPass" style="text-decoration: none;">Forgot password?</a>
+                                            </div>
+                                        </div>
+                                         <!-- row -->
+                                        <div class="row mb-5">
+                                            <button  type="button" class="btn  btn-lg btn-block Btnlogin">Log in</button>
+                                        </div>
+                                         <!-- row -->
+                                        <div class="row mb-5 justify-content-center">
+                                            <span style="font-size: 16px;">Don't have an account?</span>
+                                            <a style="color: rgb(255, 83, 4);text-decoration: none;font-size: 16px;" href="RegisterPage.html"> Create an account</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- The Modal -->
+                </div>
+
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h2 style="margin-top: 80px;font-family: 'Lato', sans-serif;font-weight: 700;">Your everyday, right away</h2>
+                    </div>
+                </div>
+
+                <div class="row mt-3">
+                    <div class="col-12 text-center">
+                        <h5 style="font-size: 18px;">Order food and grocery delivery online from hundreds </h5>
+                        <h5 style="font-size: 18px;"> of restaurants and shops nearby.</h5>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center mb-5 mt-3 mt-lg-0">
+                    <a href="https://apps.apple.com/us/app/talabat-%D8%B7%D9%84%D8%A8%D8%A7%D8%AA-food-ordering/id451001072?utm_campaign=other_campaigns_web_eat_ma_bh_display&utm_source=Footer_download&utm_medium=campaigns">
+                        <img class="mr-3" src="images/logo2.jpg" width="150px" height="50px"/>
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.talabat&referrer=adjust_reftag%3Dc2VDcRfodCSbL%26utm_source%3DCooperations%26utm_campaign%3Dother_campaigns_and_eat_ma_bh_display%26utm_content%3DFooter_download&utm_campaign=other_campaigns_web_eat_ma_bh_display&utm_medium=campaigns&utm_source=Footer_download">
+                        <img class="mr-3" src="images/logo3.png" width="150px" height="50px"/>
+                    </a>
+                    <a href="https://appgallery.huawei.com/#/app/C100450669">
+                        <img class="mr-3" src="images/logo4.png" width="150px" height="50px"/>
+                    </a>
+                </div>
+            </div>
+            <!-- Container 1 -->
+
+
+            <!-- Container 2 -->
+            <div class="container " style="margin-bottom: 100px;">
+                <!-- row 1 -->
+                <div class="row">
+                    <!-- col 1 -->
+                    <div class="col-6">
+                        <div class="card" style="max-width: 700px;">
+                            <div class="row no-gutters" >
+                                <div class="col-sm-5"style="background: #FF6749;">
+                                    <img src="images/card1.webp" class="card-img-top h-100" style="padding-left: 50px;padding-bottom: 30px;" alt="...">
+                                </div>
+                              
+                                <div class="col-sm-7">
+                                    <div class="card-body">
+                                        <h5 class="card-title" style="font-size: 25px;">Restaurant</h5>
+                                        <p class="card-text mb-5" style="font-weight: 600;">Find deals, free delivery, and more from our restaurant partners.</p>
+                                        <a href="AllResturant.html" style="text-decoration: none;font-size: 18px;color: rgb(250, 101, 1);"> Explore</a>
+                                    </div>
+                                </div>
+                              
+                            </div>
+                        </div>
+                    </div>
+                    <!-- col 1 -->
+
+                    <!-- col 2 -->
+                    <div class="col-6">
+                        <div class="card" style="max-width: 700px;">
+                            <div class="row no-gutters">
+                                <div class="col-sm-5"style="background: #EDA60E ;">
+                                    <img src="images/card2.webp" class="card-img-top h-100" style="padding-left: 50px;padding-bottom: 30px;" alt="...">
+                                </div>
+                              
+                                <div class="col-sm-7">
+                                    <div class="card-body">
+                                        <h5 class="card-title" style="font-size: 25px;">Grocery</h5>
+                                        <p class="card-text mb-5" style="font-weight: 600;">Find deals, free delivery, and more from our restaurant partners. </p>
+                                        <a href="Grocery.html" style="text-decoration: none;font-size: 18px;color: rgb(250, 101, 1);"> Explore</a>
+                                    </div>
+                                </div>
+                              
+                            </div>
+                        </div>
+                    </div>
+                    <!-- col 2 -->
+                </div>
+          
+                <!-- row 2 -->
+                <div class="row justify-content-center justify-content-lg-start mt-5" >
+                    <!-- col  -->
+                    <div class="col-6">
+                        <div class="card" style="max-width: 700px;">
+                            <div class="row no-gutters">
+                                <div class="col-sm-5"style="background: #2B85E9 ;">
+                                    <img src="images/card3.webp" class="card-img-top h-100" style="padding-left: 50px;padding-bottom: 30px;" alt="...">
+                                </div>
+                              
+                                <div class="col-sm-7">
+                                    <div class="card-body">
+                                        <h5 class="card-title" style="font-size: 25px;">Pharmacy</h5>
+                                        <p class="card-text mb-5" style="font-weight: 600;">Got the sniffles? We’ve got you. Get medicine delivered  </p>
+                                        <a href="Pharmacy.html" style="text-decoration: none;font-size: 18px;color: rgb(250, 101, 1);"> Explore</a>
+                                    </div>
+                                </div>
+                              
+                            </div>
+                        </div>
+                    </div>
+                    <!-- col -->
+                </div>
+
+            </div>
+            <!-- Container 2 -->
+
+
+            <!-- Container 3 -->
+            <div class="container ">
+                <!-- row 1 -->
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h2 style="margin-top: 80px;font-family: 'Lato', sans-serif;font-weight: 700;">Join us</h2>
+                    </div>
+                </div>
+                
+                <!-- row 2 -->
+                <div class="row mt-3">
+                    <div class="col-12 text-center">
+                        <h5 style="font-size: 18px;">Be a part of the talabat story</h5>
+                    </div>
+                </div>
+
+                <!-- row 3 -->
+                <div class="row mt-4" style="margin-bottom: 150px;">
+                    <!-- col 1 -->
+                    <div class="col-6">
+                        <div class="card" style="max-width: 700px;">
+                            <div class="row no-gutters" >
+                                <div class="col-sm-5">
+                                    <img src="images/del.jpg" class="card-img-top h-100" style="padding-left: 50px;padding-bottom: 30px;" alt="...">
+                                </div>
+                              
+                                <div class="col-sm-7">
+                                    <div class="card-body">
+                                        <h5 class="card-title" style="font-size: 25px;">Become partner</h5>
+                                        <p class="card-text mb-5" style="font-weight: 600;">Join the dynamic team that makes it all happen</p>
+                                        <a href="Partner.html" target="_blank" class="btn" style="font-size: 18px;background-color: rgb(250, 101, 1);color: white;border-radius: 8px;width: 150px;padding: 10px;"> Find out more</a>
+                                    </div>
+                                </div>
+                              
+                            </div>
+                        </div>
+                    </div>
+                    <!-- col 1 -->
+
+                    <!-- col 2 -->
+                    <div class="col-6">
+                        <div class="card" style="max-width: 700px;">
+                            <div class="row no-gutters">
+                                <div class="col-sm-5">
+                                    <img src="images/del.jpg" class="card-img-top h-100" style="padding-left: 50px;padding-bottom: 30px;" alt="...">
+                                </div>
+                              
+                                <div class="col-sm-7">
+                                    <div class="card-body">
+                                        <h5 class="card-title" style="font-size: 25px;">Build your career</h5>
+                                        <p class="card-text mb-5" style="font-weight: 600;">Join the dynamic team that makes it all happen</p>
+                                        <a href="#" class="btn " style="font-size: 18px;background-color: rgb(250, 101, 1);color: white;border-radius: 8px;width: 150px;padding: 10px;"> Find out more</a>
+                                    </div>
+                                </div>
+                              
+                            </div>
+                        </div>
+                    </div>
+                    <!-- col 2 -->
+                </div>
+
+            </div>
+            <!-- Container 3 -->
+
+
+            <!-- Container 4 -->
+            <div class="container ">
+                <div class="row">
+
+                    <!-- col 1 -->
+                    <div class="col-lg-7 col-12">
+                        <!-- row 1 -->
+                        <div class="row ">
+                            <div class="col-12 ">
+                                <h2>Discover the new talabat app</h2>
+                            </div>
+                        </div>
+
+                         <!-- row 2 -->
+                         <div class="row ">
+                            <div class="col-12 ">
+                                <p style="font-size: 18px;">Get what you need, when you need it.</p>
+                            </div>
+                        </div>
+
+                        <!-- row 3 -->
+                        <div class="row justify-content-lg-start mt-4 ml-2 mb-4 mb-lg-0">
+                            <a href="https://apps.apple.com/us/app/talabat-%D8%B7%D9%84%D8%A8%D8%A7%D8%AA-food-ordering/id451001072?utm_campaign=other_campaigns_web_eat_ma_bh_display&utm_source=Footer_download&utm_medium=campaigns">
+                                <img class="mr-3" src="images/logo2.jpg" width="150px" height="50px"/>
+                            </a>
+                            <a href="https://play.google.com/store/apps/details?id=com.talabat&referrer=adjust_reftag%3Dc2VDcRfodCSbL%26utm_source%3DCooperations%26utm_campaign%3Dother_campaigns_and_eat_ma_bh_display%26utm_content%3DFooter_download&utm_campaign=other_campaigns_web_eat_ma_bh_display&utm_medium=campaigns&utm_source=Footer_download">
+                                <img class="mr-3" src="images/logo3.png" width="150px" height="50px"/>
+                            </a>
+                            <a href="https://appgallery.huawei.com/#/app/C100450669">
+                                <img class="mr-3" src="images/logo4.png" width="150px" height="50px"/>
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <!-- col 2 -->
+                    <div class="col-lg-4 col-12 ">
+                        <img src="images/imageFooter.webp" width="450px"/>
+                    </div>
+                </div>
+            </div>
+            <!-- Container 4 -->
+
+        </section>
+        <!-- Body -->
+
+        <!-- Footer -->
+        <footer style="background-color: rgb(44, 44, 44);">
+            <!-- Footer Links -->
+            <div class="container">
+                <!-- Grid row-->
+                <div class="row text-center d-flex justify-content-around pt-4 mb-3">
+                    <!-- Grid column -->
+                    <div class="col-md-1 ">
+                        <p >
+                            <a class="LinkFooter" style="text-decoration: none;" href="FeedBack.html">Feedback</a>
+                        </p>
+                    </div> 
+                    <!-- Grid column -->
+                    
+                    <!-- Grid column -->
+                    <div class="col-md-1 ">
+                        <p >
+                            <a class="LinkFooter" style="text-decoration: none;"  href="#">Careers</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+                    
+                    <!-- Grid column -->
+                    <div class="col-md-1 ">
+                        <p>
+                            <a class="LinkFooter" style="text-decoration: none;" href="Terms.html">Terms</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+  
+                    <!-- Grid column -->
+                    <div class="col-md-1 ">
+                        <p >
+                            <a class="LinkFooter" style="text-decoration: none;" href="FAQ.html">FAQ</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+  
+                    <!-- Grid column -->
+                    <div class="col-md-1 ">
+                        <p>
+                            <a class="LinkFooter" style="text-decoration: none;"  href="PrivacyPolicy.html">Privacy</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-1 ">
+                        <p >
+                            <a class="LinkFooter" style="text-decoration: none;" href="ContactUs.html">ContactUs</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-1 ">
+                        <p >
+                            <a class="LinkFooter" style="text-decoration: none;" href="SiteMap.html">Sitemap</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+  
+                </div>
+                
+
+                <!-- Grid row-->
+                <hr  style="margin: 0 5%;background-color: rgb(83, 83, 83);width: 90%;">
+                
+
+                <!-- Grid row-->
+                <div class="row d-flex  justify-content-center mb-md-0 mb-4">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-12 mt-4 ">
+                        <p class="LinkFooterHeads">Restaurants</p>
+
+                        <ul class="list-unstyled">
+                          <li class="mb-2" >                 
+                              <a href="#" style="color: white; text-decoration: none;" >Most Selling</a>          
+                          </li>
+                          <li class="mb-2">
+                              <a href="#" style="color: white; text-decoration: none;">Taboon</a>
+                          </li>
+                          <li class="mb-2">
+                              <a href="#" style="color: white; text-decoration: none;">Dawar Farah - Mohandiseen</a>
+                          </li>
+                          <li class="mb-2">
+                              <a href="#" style="color: white; text-decoration: none;">Indira</a>
+                          </li>
+                          <li class="mb-2">
+                            <a href="#" style="color: white; text-decoration: none;">Al Aseel El Demashky-Tagammoa 5</a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#" style="color: white; text-decoration: none;">Lan Yuan - Maadi</a>
+                        </li>
+                        <li>
+                            <a href="AllResturant.html" style="color: gray; text-decoration: none;font-style: italic;">More Restaurants...</a>
+                        </li>
+                        </ul>                
+                    </div>
+                    <!-- Grid column -->
+
+
+                    <!-- Grid column -->
+                     <div class="col-md-3 col-12 mt-4 ">
+                        <p class="LinkFooterHeads">Popular Cuisines</p>
+
+                        <ul class="list-unstyled">
+                          <li class="mb-2" >                 
+                              <a href="#" style="color: white; text-decoration: none;" >Italian</a>          
+                          </li>
+                          <li class="mb-2">
+                              <a href="#" style="color: white; text-decoration: none;">Mexican </a>
+                          </li>
+                          <li class="mb-2">
+                              <a href="#" style="color: white; text-decoration: none;">Sandwiches</a>
+                          </li>
+                          <li class="mb-2">
+                              <a href="#" style="color: white; text-decoration: none;">Japanese </a>
+                          </li>
+                          <li class="mb-2">
+                            <a href="#" style="color: white; text-decoration: none;">Pizza</a>
+                        </li>
+                        <li>
+                            <a href="SiteMap.html" style="color: gray; text-decoration: none;font-style: italic;">More Cuisines....</a>
+                        </li>
+                        </ul>                
+                    </div>
+                    <!-- Grid column -->
+
+
+                    <!-- Grid column -->
+                     <div class="col-md-3 col-12 mt-4 ">
+                        <p class="LinkFooterHeads">Popular Areas</p>
+
+                        <ul class="list-unstyled">
+                          <li class="mb-2" >                 
+                              <a href="#" style="color: white; text-decoration: none;" >Masaken El Rehab</a>          
+                          </li>
+                          <li class="mb-2">
+                              <a href="#" style="color: white; text-decoration: none;">Mostashfa AlHommeyat </a>
+                          </li>
+                          <li class="mb-2">
+                              <a href="#" style="color: white; text-decoration: none;">Salah ElDin Street</a>
+                          </li>
+                          <li class="mb-2">
+                              <a href="#" style="color: white; text-decoration: none;">Salah Nessim Street </a>
+                          </li>
+                          <li class="mb-2">
+                            <a href="#" style="color: white; text-decoration: none;">Shabab El Mosalas</a>
+                        </li>
+                        <li>
+                            <a href="SiteMap.html" style="color: gray; text-decoration: none;font-style: italic;">More Areas...</a>
+                        </li>
+                        </ul>                
+                    </div>
+                    <!-- Grid column -->
+
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-12 mt-4 ">
+                        <p class="LinkFooterHeads mb-5">Follow us on</p>
+
+                        <div class="row justify-content-around mb-4">
+                            <a href="http://www.facebook.com/Talabat"><li style="color: white;" class="fa fa-facebook fa-2x"></li></a>
+                            <a href="http://twitter.com/Talabat"><li style="color: white;" class="fa fa-twitter fa-2x"></li></a>
+                            <a href="http://instagram.com/Talabat"><li style="color: white;" class="fa fa-instagram fa-2x"></li></a>
+                            <a href="https://www.linkedin.com/company/3604171"><li style="color: white;" class="fa fa-linkedin fa-2x"></li></a>
+                            <a href="http://www.youtube.com/TalabatGTC"><li style="color: white;" class="fa fa-youtube fa-2x"></li></a>
+                        </div>
+                        <hr  style="margin: 0 5%;background-color: rgb(83, 83, 83);width: 90%;">
+                    </div>
+                    <!-- Grid column -->
+
+                </div>
+                <!-- Grid row-->
+
+
+                 <!-- Grid row-->
+                 <hr  style="margin: 0 5%;background-color: rgb(83, 83, 83);width: 90%;">
+
+
+                 <!-- Grid row-->
+                <div class="row d-flex   mb-md-0 ">
+                    <div class="col-md-6 col-12">
+                        <p class="LinkFooterHeads  mt-4">For any support or help you can contact us via our Live Chat</p>
+                    </div>
+                    <div class="col-md-6 d-none d-md-block ">
+                        <p class="LinkFooterHeads  mt-4 text-right"> &copy;2021 Talabat.com</p>
+                    </div>
+                </div>
+
+
+                 <!-- Grid row-->
+                 <div class="row d-flex justify-content-end  mb-md-0 text-center ">
+                     <!-- <div class="col-md-12 d-none d-md-block"> -->
+                        <a href="ContactUs.html" style="color: white;background-color: rgb(255, 94, 0);width: 200px;height: 30px;border-top-right-radius: 5px;border-top-left-radius: 5px;text-decoration: none;"><i class="fa fa-comment"></i> Contact Us</a>
+                     <!-- </div> -->
+                 </div>
+
+
+            </div>
+  
+        </footer>
+        <!-- Footer -->
+
+
+        <script src="js/JQuery-3.3.1.min.js"></script>
+        <script src="js/popper.js"></script>
+        <script src="js/bootstrap.js"></script>
+
+        <script>  
+        // Show hide Password model
+        $(document).ready(function(){
+            $('.pass_show').append('<span class="ptxt">Show</span>');  
+            });
+            $(document).on('click','.pass_show .ptxt', function(){ 
+                $(this).text($(this).text() == "Hide" ? "Show" : "Hide"); 
+                $(this).prev().attr('type', function(index, attr){return attr == 'password' ? 'text' : 'password'; }); 
+                });  
+
+                
+        </script>
+    </body>
+
+</html>
